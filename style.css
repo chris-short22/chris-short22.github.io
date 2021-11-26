@@ -1,6 +1,4 @@
-﻿body{
-   background-color: aqua;
-}
+﻿
 
 div {
     margin:25px;
@@ -15,6 +13,9 @@ li a{
      margin: 5px;
      text-transform: uppercase;
      border-radius: 20px; /*rounds the edges*/
+}
+h1{
+    text-align: center;
 }
 
 li a:hover{
@@ -31,13 +32,13 @@ ul{
 nav {
     background-color: crimson;
     float: left; /*just takes up the room needed, based on what you have there*/
-    height: 100vh;
+    height: 50vh;
     padding: 15px;
 }
 
 #Information{
     background-color: grey;
-    width: 45%;
+    width: 35%;
     border: 5px solid crimson;
     box-shadow: 0 4px 8px rgba(180,0,0,0.6);
     margin: 25px;
@@ -46,7 +47,7 @@ nav {
 
 #Information:hover{
     transition: transform 1.5s ease-in-out;
-    transform: rotate(720deg) scale(2);
+    transform: rotate(360deg) scale(1.2);
 }
 
 .Main{
