@@ -2,13 +2,6 @@
 {
 }
 
-nav {
-    background-color: crimson;
-    float: left; /*just takes up the room needed, based on what you have there*/
-    height: 50vh;
-    padding: 15px;
-}
-
 li a {
     background-color: white;
     color: crimson;
@@ -24,3 +17,12 @@ li a:hover {
     background-color: lightgrey;
     cursor: pointer;
 }
+
+nav {
+    background-color: crimson;
+    float: left; /*just takes up the room needed, based on what you have there*/
+    height: 50vh;
+    padding: 15px;
+}
+
+
