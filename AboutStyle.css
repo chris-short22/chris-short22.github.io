@@ -1,0 +1,26 @@
+﻿body
+{
+}
+
+nav {
+    background-color: crimson;
+    float: left; /*just takes up the room needed, based on what you have there*/
+    height: 50vh;
+    padding: 15px;
+}
+
+li a {
+    background-color: white;
+    color: crimson;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    display: block;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 20px; /*rounds the edges*/
+}
+
+li a:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
